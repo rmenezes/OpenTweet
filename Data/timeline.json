@@ -1,57 +1,115 @@
 
 {
     "timeline":[
-                {
-                "id": "00001",
-                "author": "@randomInternetStranger",
-                "content": "Man, I'm hungry. I probably should book a table at a restaurant or something. Wonder if there's an app for that?",
-                "avatar": "https://i.imgflip.com/ohrrn.jpg",
-                "date": "2020-09-29T14:41:00-08:00"
-                },
-                {
-                "id": "00042",
-                "avatar": "https://avatars1.githubusercontent.com/u/536608?v=3&s=460",
-                "author": "@olarivain",
-                "content": "Long day at opentable!\nShipped a great update, should be on the store next week.\nhttps://itunes.apple.com/us/app/opentable/id296581815?mt=8",
-                "date": "2020-09-30T09:41:00-08:00"
-                },
-                {
-                "id": "00003",
-                "author": "@randomInternetStranger",
-                "content": "@olarivain OMG where have YOU been all my life?",
-                "avatar": "https://i.imgflip.com/ohrrn.jpg",
-                "inReplyTo": "00042",
-                "date": "2020-09-30T09:42:00-08:00"
-                },
-                {
-                "id": "00004",
-                "author": "@ot_competitor",
-                "content": "@olarivain Meh.",
-                "inReplyTo": "00042",
-                "date": "2020-09-30T09:45:00-08:00"
-                },
-                {
-                "id": "00005",
-                "author": "@otuser",
-                "content": "@olarivain Nice, did you fix the bug that crashed the stuff when you did the thing?",
-                "inReplyTo": "00042",
-                "date": "2020-09-30T09:55:00-08:00"
-                },
-                {
-                "id": "00006",
-                "author": "@olarivain",
-                "avatar": "https://avatars1.githubusercontent.com/u/536608?v=3&s=460",
-                "content": "@otuser yep! Ticket #4242. Closed it last week",
-                "inReplyTo": "00005",
-                "date": "2020-09-30T10:32:00-08:00"
-                },
-                {
-                "id": "00007",
-                "author": "@olarivain",
-                "avatar": "https://avatars1.githubusercontent.com/u/536608?v=3&s=460",
-                "content": "@ot_competitor it's ok, just let it out. There's enough room for the both of us.",
-                "inReplyTo": "00004",
-                "date": "2020-09-30T10:33:00-08:00"
-                }
-                ]
+        {
+            "id": "00001",
+            "author": "@randomInternetStranger",
+            "content": "Man, I'm hungry. I probably should book a table at a restaurant or something. Wonder if there's an app for that?",
+            "avatar": "https://i.imgflip.com/ohrrn.jpg",
+            "date": "2020-09-29T14:41:00-08:00"
+        },
+        {
+            "id": "00042",
+            "avatar": "https://avatars1.githubusercontent.com/u/536608?v=3&s=460",
+            "author": "@olarivain",
+            "content": "Long day at opentable!\nShipped a great update, should be on the store next week.\nhttps://itunes.apple.com/us/app/opentable/id296581815?mt=8",
+            "date": "2020-09-30T09:41:00-08:00"
+        },
+        {
+            "id": "00003",
+            "author": "@randomInternetStranger",
+            "content": "@olarivain OMG where have YOU been all my life?",
+            "avatar": "https://i.imgflip.com/ohrrn.jpg",
+            "inReplyTo": "00042",
+            "date": "2020-09-30T09:42:00-08:00"
+        },
+        {
+            "id": "00004",
+            "author": "@ot_competitor",
+            "content": "@olarivain Meh.",
+            "inReplyTo": "00042",
+            "date": "2020-09-30T09:45:00-08:00"
+        },
+        {
+            "id": "00005",
+            "author": "@otuser",
+            "content": "@olarivain Nice, did you fix the bug that crashed the stuff when you did the thing?",
+            "inReplyTo": "00042",
+            "date": "2020-09-30T09:55:00-08:00"
+        },
+        {
+            "id": "00006",
+            "author": "@olarivain",
+            "avatar": "https://avatars1.githubusercontent.com/u/536608?v=3&s=460",
+            "content": "@otuser yep! Ticket #4242. Closed it last week",
+            "inReplyTo": "00005",
+            "date": "2020-09-30T10:32:00-08:00"
+        },
+        {
+            "id": "00007",
+            "author": "@olarivain",
+            "avatar": "https://avatars1.githubusercontent.com/u/536608?v=3&s=460",
+            "content": "@ot_competitor it's ok, just let it out. There's enough room for the both of us.",
+            "inReplyTo": "00004",
+            "date": "2020-09-30T10:33:00-08:00"
+        },
+        {
+            "id": "00008",
+            "author": "@rmenezes89",
+            "avatar": "https://avatars.githubusercontent.com/u/1154679?v=4",
+            "content": "@rmenezes89 this is a component that detects handles, #hashtag, and can be updated to use different text styles based on components like https://rmenezes.me links",
+            "inReplyTo": "00007",
+            "date": "2020-09-30T10:34:00-08:00"
+        },
+        {
+            "id": "00009",
+            "author": "@rmenezes89",
+            "avatar": "https://avatars.githubusercontent.com/u/1154679?v=4",
+            "content": "A tweet with 1 image",
+            "date": "2020-09-31T10:34:00-08:00",
+            "images": [
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-1_w900.jpeg"
+            ]
+        },
+        {
+            "id": "00010",
+            "author": "@rmenezes89",
+            "avatar": "https://avatars.githubusercontent.com/u/1154679?v=4",
+            "content": "@rmenezes89 A tweet with 2 image",
+            "date": "2020-09-31T10:35:00-08:00",
+            "inReplyTo": "00009",
+            "images": [
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-1_w900.jpeg",
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-side_w900.jpg"
+            ]
+        },
+        {
+            "id": "00011",
+            "author": "@rmenezes89",
+            "avatar": "https://avatars.githubusercontent.com/u/1154679?v=4",
+            "content": "@rmenezes89 A tweet with 3 image",
+            "date": "2020-09-31T10:36:00-08:00",
+            "inReplyTo": "00009",
+            "images": [
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-1_w900.jpeg",
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-side_w900.jpg",
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-top_w900.jpg"
+            ]
+        },
+        {
+            "id": "00012",
+            "author": "@rmenezes89",
+            "avatar": "https://avatars.githubusercontent.com/u/1154679?v=4",
+            "content": "@rmenezes89 A tweet with +4 images",
+            "date": "2020-09-31T10:37:00-08:00",
+            "inReplyTo": "00009",
+            "images": [
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-1_w900.jpeg",
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-side_w900.jpg",
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-top_w900.jpg",
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-og-yellow-toe-taxi-555088-711-detail_w900.jpg",
+                "https://cms-cdn.thesolesupplier.co.uk/2021/12/air-jordan-1-high-taxi-side_w900.jpg"
+            ]
+        }
+    ]
 }

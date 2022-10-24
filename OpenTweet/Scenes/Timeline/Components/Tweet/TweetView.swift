@@ -1,0 +1,49 @@
+//
+//  TweetView.swift
+//  OpenTweet
+//
+//  Created by Raul Menezes on 15/10/2022.
+//  Copyright © 2022 OpenTable, Inc. All rights reserved.
+//
+
+import Kingfisher
+import SwiftUI
+
+struct TweetView: View {
+    let tweet: Tweet
+    var body: some View {
+        HStack(alignment: .top) {
+            AvatarView(url: tweet.avatar, size: .medium)
+            
+            VStack(
+                alignment: .leading,
+                spacing: .Spacing.xxs
+            ) {
+                HStack(spacing: .Spacing.xxs) {
+                    Text(tweet.author)
+                        .font(.headline)
+                        .foregroundColor(.Brand.secondaryText)
+                    
+                    Text(tweet.date, style: .relative)
+                        .font(.callout)
+                        .foregroundColor(.System.placeholder)
+                }
+                
+                VStack {
+                    ContentView(viewModel: ContentViewModel(tweet: tweet))
+                    
+                    if let images = tweet.images {
+                        ImageView(images: images)
+                    }
+                }
+            }
+        }
+        .padding(.default)
+    }
+}
+
+struct TweetView_Previews: PreviewProvider {
+    static var previews: some View {
+        TweetView(tweet: Self.mock)
+    }
+}
